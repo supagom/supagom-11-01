@@ -13,9 +13,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
                     <p><h4><b>Name : </b> {{ Auth::user()->name }}</h4></p>
                     <p><h4><b>Email : </b> {{ Auth::user()->email }}</h4></p>
+                    <p><h4><b>Address : </b> {{ Auth::user()->email }}</h4></p>
+                    <p><h4><b>phone : </b> {{ Auth::user()->email }}</h4></p>
                 </div>
             </div>
         </div>
